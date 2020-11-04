@@ -34,4 +34,6 @@ while True:
         
         elif choice == '4':
             print(num1, 'divided by', num2, 'equals', divide(num1, num2))
-    break
+        break
+    else:
+        print('enter a proper number')
